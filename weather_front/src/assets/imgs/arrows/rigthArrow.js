@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 function RightArrow() {
   return (
@@ -13,7 +13,7 @@ function RightArrow() {
         <path
           fill="#1E568F"
           d="M13.64 8.792l-7.543 6.88a1.313 1.313 0 01-1.737 0 1.052 1.052 0 010-1.585L11.034 8 4.36 1.913a1.052 1.052 0 010-1.585 1.314 1.314 0 011.737 0l7.543 6.88c.24.219.36.505.36.792 0 .287-.12.573-.36.792"
-        ></path>
+        />
       </g>
       <defs>
         <filter
@@ -25,23 +25,23 @@ function RightArrow() {
           colorInterpolationFilters="sRGB"
           filterUnits="userSpaceOnUse"
         >
-          <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-          ></feColorMatrix>
-          <feOffset dy="4"></feOffset>
-          <feGaussianBlur stdDeviation="2"></feGaussianBlur>
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
+          />
+          <feOffset dy="4" />
+          <feGaussianBlur stdDeviation="2" />
+          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
           <feBlend
             in2="BackgroundImageFix"
             result="effect1_dropShadow"
-          ></feBlend>
+          />
           <feBlend
             in="SourceGraphic"
             in2="effect1_dropShadow"
             result="shape"
-          ></feBlend>
+          />
         </filter>
       </defs>
     </svg>
