@@ -1,0 +1,17 @@
+{
+    "description": "teste",
+    "dt": 10,
+    "pressure": 10,
+    "humidity": 10,
+    "wind_speed": 10,
+    "wind_deg": 10,
+    "pop": 10,
+    "rain": 10,
+    "snow": 10,
+    "dayTemp": 10,
+    "minTemp": 10,
+    "maxTemp": 10,
+    "nightTemp": 10,
+    "dayFeel": 10,
+    "nightFeel": 10
+}
